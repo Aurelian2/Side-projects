@@ -11,7 +11,7 @@ public class Asphalt {
     System.out.print("Enter length of road in miles    : ");
     double roadLength = scan.nextDouble();
     
-    // One lane is 12 feet across // 
+    // One lane is 12 feet across, if you wanna change it, adjust 12.0 in numLanes on 23 // 
     System.out.print("Enter number of lanes            : ");
     int numLanes = scan.nextInt();
     
