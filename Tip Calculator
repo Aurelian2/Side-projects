@@ -1,0 +1,60 @@
+import java.util.Scanner;
+
+
+public class TipCalculator {
+   public static void main(String[] args) {
+   
+      Scanner scnr = new Scanner(System.in);
+
+      double checkTotal;
+      ////
+      double tentip;
+      double tentiptotal;
+      
+
+      System.out.print("Enter the check amount : ");
+      checkTotal = scnr.nextDouble();
+      //////
+      tentip = checkTotal * 0.1;
+      tentiptotal = checkTotal + tentip;
+      
+      System.out.printf("Total with 10%% tip ($%.2f) is $%.2f", tentip, tentiptotal);
+      System.out.println("");
+/////////////////////
+      double fifteentip;
+      double fifteentiptotal;
+      
+      fifteentip = checkTotal * 0.15;
+      fifteentiptotal = checkTotal + fifteentip;
+      
+      System.out.printf("Total with 15%% tip ($%.2f) is $%.2f", fifteentip, fifteentiptotal);
+      System.out.println("");
+   /////////////////////////////////////
+      double twentytip;
+      double twentytiptotal;
+      
+      twentytip = checkTotal * 0.2;
+      twentytiptotal = checkTotal + twentytip;
+      
+      System.out.printf("Total with 20%% tip ($%.2f) is $%.2f", twentytip, twentytiptotal);
+      System.out.println("");
+   //////////////////////////////////////
+      double twentyfivetip;
+      double twentyfivetiptotal;
+      
+      twentyfivetip = checkTotal * 0.25;
+      twentyfivetiptotal = checkTotal + twentyfivetip;
+      
+      System.out.printf("Total with 25%% tip ($%.2f) is $%.2f", twentyfivetip, twentyfivetiptotal);
+      System.out.println("");
+      //////////////////////////////////////////////
+      double thirtytip;
+      double thirtytiptotal;
+      
+      thirtytip = checkTotal * 0.3;
+      thirtytiptotal = checkTotal + thirtytip;
+      
+      System.out.printf("Total with 30%% tip ($%.2f) is $%.2f", thirtytip, thirtytiptotal);
+      System.out.println("");
+   }
+}
